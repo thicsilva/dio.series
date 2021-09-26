@@ -6,12 +6,12 @@ namespace DIO.Series.Enums
 {
     public enum Genre
     {
-        Ação,
-        Comédia,
-        Suspense,
-        Terror,
+        Action,
+        Comedy,
+        Thriller,
+        Horror,
         Romance,
-        Ficção,
-        Desenho
+        SciFi,
+        Cartoon,
     }
 }

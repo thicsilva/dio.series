@@ -28,7 +28,7 @@ namespace DIO.Series.Classes.Entities
             result += $"Title: {Title} {Environment.NewLine}";
             result += $"Description: {Description} {Environment.NewLine}";
             result += $"Release Year: {Year} {Environment.NewLine}";
-            result += $"Is Excluded? {IsExcluded}";
+            result += IsExcluded?$"Excluded: {IsExcluded}":"";
             return result;
         }      
 
